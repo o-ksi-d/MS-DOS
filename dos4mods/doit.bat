@@ -1,6 +1,7 @@
-copy getmsg.asm mapper
-copy select2.asm select
-copy panel.inf select
+copy /Y getmsg.asm mapper
+copy /Y  select2.asm select
+copy /Y panel.inf select
+copy /Y panel.inf select\USA.inf
 
 cd boot
 zip -X -l -m temp *.skl
